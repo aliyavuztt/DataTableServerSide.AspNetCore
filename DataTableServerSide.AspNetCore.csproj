@@ -10,6 +10,12 @@
     <Copyright>Copyright 2024</Copyright>
     <PackageIcon>DataTableServerSide.AspNetCore.Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/aliyavuztt/DataTableServerSide.AspNetCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>DataTable ServerSide DataTableJs</PackageTags>
+    <PackageReleaseNotes>This library is designed to facilitate server-side table operations using the DataTables plugin in your ASP.NET Core projects.</PackageReleaseNotes>
+    <NeutralLanguage>tr</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

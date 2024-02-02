@@ -143,11 +143,11 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
 
 ## Katkıda Bulunma
 
-Eğer bir sorun bulursanız veya katkıda bulunmak istiyorsanız, lütfen bir [sorun](https://github.com/yourusername/Datatable.AspNetCore.ServerSideTable/issues) açın veya bir pull talebi gönderin.
+Eğer bir sorun bulursanız veya katkıda bulunmak istiyorsanız, lütfen bir [sorun](https://github.com/aliyavuztt/DataTableServerSide.AspNetCore/issues) açın veya bir pull talebi gönderin.
 
 ## Proje Demosu
 
-Proje Demosu'nu [inceleyebilirsiniz](https://github.com/yourusername/Datatable.AspNetCore.ServerSideTable/issues)
+Proje Demosu'nu [inceleyebilirsiniz](https://github.com/aliyavuztt/ServerSideTable.Demo)
 
 ## Lisans
 
