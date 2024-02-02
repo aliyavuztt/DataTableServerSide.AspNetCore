@@ -74,8 +74,8 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
                 persons.Add(person);
             }
 
-    return persons;
-}
+            return persons;
+        }
     }
     ```
 
