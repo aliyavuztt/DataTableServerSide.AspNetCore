@@ -5,7 +5,7 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
 
 ## Nasıl Kullanılır
 
-1. **Kurulum :**
+1. **Kurulum**
 
   - NuGet üzerinden kütüphaneyi projenize ekleyin.
 
@@ -13,7 +13,7 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
     dotnet add package DataTableServerSide.AspNetCore
     ```
 
-2. **Model oluşturma :**
+2. **Model oluşturma**
 
   - Model sınıfınızı oluşturun.
 
