@@ -7,7 +7,7 @@ This library is designed to facilitate server-side table operations using the Da
 
 1. **Installation**
 
-  - NuGet üzerinden kütüphaneyi projenize ekleyin.
+  - Add the library to your project via NuGet.
 
     ```bash
     dotnet add package DataTableServerSide.AspNetCore
