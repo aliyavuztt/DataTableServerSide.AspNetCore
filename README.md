@@ -1,11 +1,11 @@
 # DataTableServerSide.AspNetCore
 
-Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak sunucu taraflı tablo işlemlerini kolaylaştırmak için tasarlanmıştır.
+This library is designed to facilitate server-side table operations using the DataTables plugin in your ASP.NET Core projects.
 
 
 ## Nasıl Kullanılır
 
-1. **Kurulum**
+1. **Installation**
 
   - NuGet üzerinden kütüphaneyi projenize ekleyin.
 
@@ -13,9 +13,9 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
     dotnet add package DataTableServerSide.AspNetCore
     ```
 
-2. **Model oluşturma**
+2. **Model Creation**
 
-  - Model sınıfınızı oluşturun.
+  - Create your model class.
 
     ```csharp
     public class PersonModel
@@ -29,7 +29,7 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
         public int Age { get; set; }
     }
     ```
-3. **Controller'da Kullanım**
+3. **Usage in Controller**
     ```csharp
     using Bogus;
     using DataTableServerSide.AspNetCore;
@@ -79,9 +79,9 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
     }
     ```
 
-4. **İstemci tarafında DataTable Ayarları**
+4. **DataTable Settings on the Client Side**
 
-   HTML sayfanızda DataTable'ı aşağıdaki gibi yapılandırın:
+   Configure DataTable on your HTML page as follows:
 
     ```html
     <div class="mb-5 mt-5">
@@ -102,7 +102,7 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
         </table>
     </div>
     ```
-    JavaScript ile DataTable'ı yapılandırın:
+    Configure DataTable with JavaScript:
     
     ```javascript
     $(document).ready(function () {
@@ -131,24 +131,23 @@ Bu kütüphane, ASP.NET Core projelerinizde DataTables eklentisini kullanarak su
         });
     ```
 
-5. **Örnek Kullanım**
+5. **Example Usage**
 
-    - `PersonModel` sınıfınıza uygun bir model oluşturun.
-    - Controller'daki `GetDataTable` yöntemine uygun veriyi sağlayın.
-    - DataTable'ı ilgili HTML sayfanıza entegre edin ve JavaScript ile yapılandırın.
+    - Create a model that fits your `PersonModel` class.
+    - Provide the appropriate data for the `GetDataTable` method in the Controller..
+    - Integrate DataTable into your relevant HTML page and configure it with JavaScript.
 
-6. **Kendi Filtreleme ve Sıralama Mantığı**
+6. **Custom Filtering and Sorting Logic**
 
-    Kütüphane, verileri filtreleme ve sıralama için özelleştirmenize olanak tanır. `ApplyFilters` ve `ApplySorting` yöntemlerini düzenleyerek kendi mantığınızı ekleyebilirsiniz.
+    The library allows you to customize data filtering and sorting. You can add your logic by modifying the `ApplyFilters` and `ApplySorting` methods.
 
-## Katkıda Bulunma
+## Contributing
+If you find an issue or want to contribute, please open an [issue](https://github.com/aliyavuztt/DataTableServerSide.AspNetCore/issues) or submit a pull request.
 
-Eğer bir sorun bulursanız veya katkıda bulunmak istiyorsanız, lütfen bir [sorun](https://github.com/aliyavuztt/DataTableServerSide.AspNetCore/issues) açın veya bir pull talebi gönderin.
+## Project Demo
 
-## Proje Demosu
+You can check out the [Project Demo](https://github.com/aliyavuztt/ServerSideTable.Demo).
 
-Proje Demosu'nu [inceleyebilirsiniz](https://github.com/aliyavuztt/ServerSideTable.Demo)
+## License
 
-## Lisans
-
-Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır. Detaylı bilgi için lisans dosyasını inceleyebilirsiniz.
+This project is licensed under the [MIT lisansı](LICENSE). You can review the license file for detailed information.
