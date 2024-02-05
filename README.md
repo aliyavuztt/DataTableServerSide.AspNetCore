@@ -3,7 +3,7 @@
 This library is designed to facilitate server-side table operations using the DataTables plugin in your ASP.NET Core projects.
 
 
-## Nasıl Kullanılır
+## How to Use
 
 1. **Installation**
 
