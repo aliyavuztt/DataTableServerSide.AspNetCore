@@ -150,4 +150,4 @@ You can check out the [Project Demo](https://github.com/aliyavuztt/ServerSideTab
 
 ## License
 
-This project is licensed under the [BSD-2-Clause license](https://github.com/aliyavuztt/DataTableServerSide.AspNetCore?tab=BSD-2-Clause-1-ov-file)https://github.com/aliyavuztt/DataTableServerSide.AspNetCore?tab=BSD-2-Clause-1-ov-file). You can review the license file for detailed information.
+This project is licensed under the [LICENSE](https://github.com/aliyavuztt/DataTableServerSide.AspNetCore?tab=BSD-2-Clause-1-ov-file). You can review the license file for detailed information.
